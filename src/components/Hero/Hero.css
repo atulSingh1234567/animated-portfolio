@@ -1,0 +1,66 @@
+.hero-main-box{
+    height: calc(100vh - 100px);
+    /* width: 100vw; */
+    overflow: hidden;
+    background: linear-gradient(180deg , #0c0c1d , #111132);
+    /* border: 1px solid yellow; */
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid black; */
+    max-width: 1024px;
+    padding-left: 40%;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.my-name{
+    font-weight: 400;
+    font-size: 30px;
+    color: rebeccapurple;
+    letter-spacing: 10px;
+}
+
+.my-roll{
+    font-size: 60px;
+}
+
+.buttons  button{
+    height: 40px;
+    font-size: 17px;
+    font-weight: 400;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    margin: 24px 12px 0px 0px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.buttons>button:nth-child(2){
+     background-color: white;
+     color: black;
+}
+
+.slidingText{
+    position: relative;
+    bottom: 0px;
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 200px;
+}
+
+.sliding-heading{
+    font-size: 30vh;
+    white-space: nowrap;
+    letter-spacing: 5px;
+    color: #ffffff09;
+}
+
+.img-slid-down{
+    width: 30px;
+}
