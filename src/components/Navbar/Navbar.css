@@ -6,6 +6,7 @@
 .sidebar{
     display: flex;
     max-width: 1024px;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin: auto;

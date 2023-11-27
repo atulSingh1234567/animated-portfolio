@@ -12,7 +12,7 @@ export default function Parallax(props) {
 
     const yText = useTransform(scrollYProgress , [0,1] , ["0%" , "500%"])
     const yBG = useTransform(scrollYProgress , [0,1] , ["0%" , "100%"])
-    const sunEffect = useTransform(scrollYProgress , [0,1] , ["#f00abc" , "#00f"])
+    // const sunEffect = useTransform(scrollYProgress , [0,1] , ["#f00abc" , "#00f"])
 
   return (
     <div ref={ref} className='parallax-main-box' style={{background: props.type==='services'? 'linear-gradient(180deg, ##0c0c1d , #111132)' : 'linear-gradient(180deg , #111132 , #0c0c1d)'}}>
