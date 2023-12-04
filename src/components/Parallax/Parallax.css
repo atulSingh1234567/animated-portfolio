@@ -16,7 +16,7 @@
 .mountains{
     position: absolute;
     z-index: 3;
-    background-image: url('mountains.png');
+    background-image: url('mountain.png');
     background-position: bottom;
     background-size: cover;
     width: 100%;
@@ -36,7 +36,7 @@
 .stars{
     position: absolute;
     z-index: 1;
-    background-image: url('stars.png');
+    background-image: url('star.png');
     background-size: cover;
     background-position: top;
     width: 100%;
