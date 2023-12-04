@@ -16,7 +16,7 @@
 .mountains{
     position: absolute;
     z-index: 3;
-    background-image: url('/public/mountain.png');
+    background-image: url('/mountain.png');
     background-position: bottom;
     background-size: cover;
     width: 100%;
