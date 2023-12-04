@@ -46,14 +46,15 @@ export default function Hero() {
         },
 
     }
+
   return (
     <motion.div className='hero-main-box' variants={slidingtextvariants}>
         <motion.div className="wrapper" animate = 'animate' initial = 'initial'  variants={slidingtextvariants}>
             <motion.h2 className='my-name'  variants={slidingtextvariants}>Atul Singh</motion.h2>
             <motion.h1 className='my-roll'  variants={slidingtextvariants}>Web developer</motion.h1>
             <motion.div className='buttons'  variants={slidingtextvariants}>
-                <motion.button>See the latest work</motion.button>
-                <motion.button>Contact me</motion.button>
+                <motion.button ><a href="#Portfolio">See the latest work</a></motion.button>
+                <motion.button> <a href="#Contact"> Contact me</a></motion.button>
             </motion.div>
             <motion.div className="slid-down" variants={slidingtextvariants} animate='scrollbutton'>
                 <img src="scroll.png" alt=""  className='img-slid-down'/>

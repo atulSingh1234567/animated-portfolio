@@ -10,9 +10,17 @@ export default function Services() {
             y: 100,
             opacity: 0,
             transition: {
-                duration: 1,
+                duration: 0.5,
                 staggerChildren: 0.1
             }
+        },
+
+        hover: {
+           scale: 1.03,
+           transition: {
+             type: 'spring',
+             stiffness: 1000,
+           }
         },
 
         animate: {
@@ -47,19 +55,19 @@ export default function Services() {
             </motion.div>
         </motion.div>
         <motion.div className="cardbox" variants={variants}>
-            <motion.div className="service-card" whileHover={{scale: 1.03}} variants={variants}>
+            <motion.div className="service-card" whileHover="hover" variants={variants}>
                 <h2>Web Design</h2>
                 <p>Crafting visually stunning and user-friendly website designs that captivate and engage audiences.</p>
             </motion.div>
-            <motion.div className="service-card" whileHover={{scale: 1.03}} variants={variants}>
+            <motion.div className="service-card" whileHover="hover" variants={variants}>
                 <h2>Responsive Development</h2>
                 <p>Ensuring seamless experiences across all devices with responsive and adaptive web development</p>
             </motion.div>
-            <motion.div className="service-card" whileHover={{scale: 1.03}} variants={variants}>
+            <motion.div className="service-card" whileHover="hover" variants={variants}>
                 <h2>Animation and Motion</h2>
                 <p>Adding life to websites through subtle animations and engaging motion graphics.</p>
             </motion.div>
-            <motion.div className="service-card" whileHover={{scale: 1.03}} variants={variants}>
+            <motion.div className="service-card" whileHover= "hover" variants={variants}>
                 <h2>Interactive UI/UX</h2>
                 <p>Building dynamic and intuitive user interfaces for an enhanced and enjoyable user experience.</p>
             </motion.div>
